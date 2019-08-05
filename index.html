@@ -144,11 +144,20 @@
   
   <img src="https://drive.google.com/file/d/1oMB0xUcFBhnFHwHGQ1rb4j39-0LbUj1x" style="width:100%">
   
-        <div id="bm"> </div>
-        
-        <!-- Scripts -->
-        <script src="scripts/bodymovin.js"></script>
-        <script src="scripts/index.js"></script>
+        <nav>
+            <ul>
+                <li><i id="search"></i>Search</li>
+            </ul>
+        </nav>
+        <script src="lottie.js"></script>
+        <script>var animation=lottie.loadAnimation({
+                container: document.getElementById('search'),
+                renderer: 'svg',
+                loop: true,
+                autoplay: true,
+                path: 'data.json'
+        })
+        </script>
   
 </body>
 </html>
