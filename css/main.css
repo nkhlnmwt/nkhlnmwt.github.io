@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+  }
+  nav {
+    width: 22%;
+    background: #e2e2e2;
+    height: 100vh;
+  }
